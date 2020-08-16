@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style-dist.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+</head>
+
+<body class="text-xl text-custom-cyan">
+  <nav class="flex items-center container mx-auto px-8 pt-8 lg:pt-12 mb-24">
+    <img class="w-32 md:w-40 lg:w-56 mr-auto" src="images/logo.svg" alt="company logo">
+    <a class="text-custom-pink text-base md:text-xl border-solid border rounded-full border-custom-pink px-8 lg:px-12 py-1 lg:py-2 hover:bg-custom-pink hover:text-pale-blue" href="#">Try It Free</a>
+  </nav>
+
+  <header class="container mx-auto px-8 text-center mb-32 flex flex-col items-center">
+    <h1 class="font-display text-4xl md:text-5xl lg:text-6xl lg:max-w-4xl leading-12 mb-8">
+      Build The Community Your Fans Will Love
+    </h1>
+
+    <p class="mb-20 max-w-xl lg:max-w-2xl md:text-2xl">
+      Huddle re-imagines the way we build communities. You have a voice, but so does
+      your audience. Create connections with your users as you engage in genuine discussion.
+    </p>
+
+    <a class="bg-custom-pink rounded-full text-pale-blue font-semibold px-12 md:px-32 py-4 md:py-6 shadow-lg transition-all duration-200 transform hover:scale-105 hover:shadow-xl md:text-2xl active:scale-100 active:shadow-lg" href="#">Get Started For
+      Free</a>
+  </header>
+
+  <main>
+    <section class="container mx-auto px-8 flex flex-col items-center mb-32 lg:mb-56">
+      <h2 class="hidden">Our Numbers</h2>
+      <img class="mb-20" src="images/screen-mockups.svg" alt="mockups illustration">
+      <div class="lg:flex justify-between lg:w-2/3">
+        <div class="mb-24">
+          <img src="images/icon-communities.svg" alt="communities-icon">
+          <p class="font-display text-8xl text-center -mb-4">
+            1.4k+
+          </p>
+          <p class="text-custom-gray text-center text-2xl">
+            Communities Formed
+          </p>
+        </div>
+  
+        <div class="relative z-10">
+          <img src="images/icon-messages.svg" alt="messages-icon">
+          <p class="font-display text-8xl text-center -mb-4">
+            2.7m+
+          </p>
+          <p class="text-custom-gray text-center text-2xl">
+            Messages Sent
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-64">
+      <h2 class="hidden">Benefits</h2>
+      <div class="bg-pale-blue relative mb-32 py-24 lg:px-20">
+        <picture>
+          <source media="(min-width: 968px)" srcset="images/bg-section-top-desktop-1.svg"> 
+          <img class="absolute inset-x-0 bottom-100 z-0 w-full" src="images/bg-section-top-mobile-1.svg"
+            alt="bg section top">
+        </picture>
+        <div class="flex flex-col-reverse lg:flex-row lg:items-center lg:justify-between container mx-auto px-8">
+          <div class="text-center lg:text-left flex flex-col items-center lg:items-start lg:w-1/2">
+            <h2 class="font-display text-3xl md:text-4xl mb-4">
+              Grow Together
+            </h2>
+            <p class="text-xl md:text-2xl max-w-xl text-center lg:text-left">
+              Generate meaningful discussions with your audience and build a strong, loyal community.
+              Think of the insightful conversations you miss out on with a feedback form.
+            </p>
+          </div>
+          <img class="mb-10 z-10 md:max-w-lg md:mx-auto lg:w-1/2 lg:ml-20" src="images/illustration-grow-together.svg"
+            alt="grow together illustration">
+        </div>
+          <picture>
+            <source media="(min-width: 968px)" srcset="images/bg-section-bottom-desktop-1.svg"> 
+              <img class="absolute inset-x-0 top-100 z-0 w-full" src="images/bg-section-bottom-mobile-1.svg"
+              alt="bg section bot">
+          </picture>
+      </div>
+
+      <div class="lg:px-12 relative z-10 mb-32 md:mb-48 py-24 lg:py-64">
+        <div class="container mx-auto px-8 flex flex-col-reverse lg:flex-row-reverse lg:items-center">
+          <div class="flex flex-col items-center lg:items-start lg:w-1/2 lg:ml-20">
+            <h2 class="font-display text-center text-3xl md:text-4xl mb-4">
+              Flowing Conversations
+            </h2>
+            <p class="text-xl md:text-2xl max-w-xl text-center lg:text-left">
+              You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+              just-in-time loading for a more natural flow.
+            </p>
+          </div>
+          <img class="md:max-w-lg md:mx-auto mb-10 z-10 lg:w-1/2" src="images/illustration-flowing-conversation.svg"
+            alt="flowing conversation illustration">
+        </div>
+      </div>
+
+      <div class="flex flex-col-reverse lg:flex-row lg:items-center bg-pale-blue relative mb-32 py-24 lg:px-20">
+        <picture>
+          <source media="(min-width: 968px)" srcset="images/bg-section-top-desktop-2.svg"> 
+          <img class="absolute inset-x-0 bottom-100 z-0 w-full" src="images/bg-section-top-mobile-2.svg"
+          alt="bg section top">
+        </picture>
+        <div class="container mx-auto flex flex-col-reverse lg:flex-row lg:items-center">
+          <div class="px-8 flex flex-col items-center lg:items-start lg:w-1/2 lg:mr-12">
+            <h2 class="font-display text-3xl md:text-4xl mb-4">
+              Your Users
+            </h2>
+            <p class="text-xl md:text-2xl max-w-xl text-center lg:text-left">
+              It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+              once signed in to your app, your users can start chatting immediately.
+            </p>
+          </div>
+          <img class="md:max-w-lg md:mx-auto mb-10 z-10 lg:w-1/2 px-8" src="images/illustration-your-users.svg"
+            alt="your users illustration">
+        </div>
+          <picture>
+            <source media="(min-width: 968px)" srcset="images/bg-section-bottom-desktop-2.svg"> 
+            <img class="absolute inset-x-0 top-100 z-0 w-full" src="images/bg-section-bottom-mobile-2.svg"
+            alt="bg section bot">
+          </picture>
+      </div>
+    </section>
+
+    <section class="flex flex-col items-center px-8 mb-48 lg:mb-64 lg:py-48">
+      <h2 class="font-display text-4xl md:text-5xl text-center flex flex-col items-center mb-12">
+        Ready To Build Your Community?
+      </h2>
+      <a class="bg-custom-pink rounded-full text-pale-blue font-semibold px-12 md:px-32 py-4 md:py-6 shadow-lg transition-all duration-200 transform hover:scale-105 hover:shadow-xl md:text-2xl active:scale-100 active:shadow-lg" href="#">Get Started For Free</a>
+    </section>
+  </main>
+
+  <footer class="bg-custom-cyan text-pale-blue pt-24 pb-6 relative">
+    <picture>
+      <source media="(min-width: 968px)" srcset="images/bg-footer-top-desktop.svg"> 
+        <img class="absolute z-0 bottom-100 w-full" src="images/bg-footer-top-mobile.svg" alt="bg-footer-top-mobile">
+    </picture>
+    <div class="container mx-auto px-8">
+      <div class="flex flex-col-reverse lg:flex-row mb-12">
+        <div>
+          <img class="w-40 mb-8" src="images/logo-footer.svg" alt="company logo">
+          <p class="mb-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+            vestibulum a, ultrices quis sem.
+          </p>
+    
+          <p class="flex mb-4">
+            <img class="object-contain mr-6" src="images/icon-phone.svg" alt="phone icon">
+            Phone: +1-543-123-4567
+          </p>
+          <p class="flex">
+            <img class="object-contain mr-6" src="images/icon-email.svg" alt="phone icon">
+            example@huddle.com
+          </p>
+        </div>
+    
+        <div class="mb-12 lg:mb-0 lg:ml-32">
+          <h4 class="uppercase font-bold text-2xl mb-8">
+            Newsletter
+          </h4>
+          <p class="mb-8">
+            To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or
+            pass on your email address
+          </p>
+          <form class="flex flex-col lg:flex-row items-end">
+            <label class="hidden" for="email">Email</label>
+            <input class="rounded-md w-full py-4 px-6 mb-6 lg:mb-0 text-custom-gray" type="email" name="email" id="email" placeholder="email@example.com">
+            <button class="bg-custom-pink rounded-md font-semibold py-4 px-12 lg:ml-6" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="flex">
+        <a href="#">
+          <span class="hidden">facebook link</span>
+          <svg class="w-8 h-8 fill-pale-blue hover:fill-custom-pink transition duration-200">
+            <use xlink:href="images/symbol-defs.svg#icon-facebook2"></use>
+          </svg>
+        </a>
+        <a href="#" class="ml-6">
+          <span class="hidden">twitter link</span>
+          <svg class="w-8 h-8 fill-pale-blue hover:fill-custom-pink transition duration-200">
+            <use xlink:href="images/symbol-defs.svg#icon-twitter"></use>
+          </svg>
+        </a>
+        <a href="#" class="ml-6">
+          <span class="hidden">instagram link</span>
+          <svg class="w-8 h-8 fill-pale-blue hover:fill-custom-pink transition duration-200">
+            <use xlink:href="images/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </div>
+      <p class="attribution text-sm text-center mt-8 md:text-base">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          class="transition duration-200 hover:text-custom-pink">Frontend Mentor</a>.
+        Coded by <a class="transition duration-200 hover:text-custom-pink" href="https://www.frontendmentor.io/profile/ringm" target="_blank">Martin
+          Ring</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
